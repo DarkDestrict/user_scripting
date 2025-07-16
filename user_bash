@@ -1,6 +1,0 @@
-#we going to be scripting on this file
-
-#!/bin/bash
-
-echo 'what is my name: '
-read
