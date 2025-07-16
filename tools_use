@@ -1,11 +1,20 @@
 #!/bin/bash
 
-name="Sipho"
-age=50
+numb=5000
+age=500
 
-if [ $name -ne "Peter" ];
+if [ $numb -eq $age ];
 then
-echo "The name is correct!!!"
+echo "The statemnt is TRUE!!!"
 else
-echo "The name is not correct!!!"
+echo "The statement is FALSE!!!"
+fi
+
+echo
+
+if [ $numb > $age ];
+then
+    echo "The amount is bigger"
+else
+    echo "The amount is small"
 fi
