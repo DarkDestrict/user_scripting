@@ -1,1 +1,12 @@
 #Tools needed to be used and helpful to the admins.
+#!/bin/bash
+
+name="Sipho"
+age=50
+
+if [ $name -ne "Peter" ];
+then
+echo "The name is correct!!!"
+else
+echo "The name is not correct!!!"
+fi
